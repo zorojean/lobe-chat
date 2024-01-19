@@ -18,7 +18,6 @@ const Desktop = memo<PropsWithChildren>(({ children }) => {
         horizontal
         style={{ position: 'relative' }}
       >
-        <div style={{ color: 'white', fontSize: '25px', fontWeight: 'bolder' }}>YueHashChat</div>
         <Flexbox className={styles.view} flex={1}>
           {children}
         </Flexbox>
